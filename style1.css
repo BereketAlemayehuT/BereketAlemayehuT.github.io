@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(83, 67, 26);
+}
+
+h1,h2{
+    color: mediumslateblue;
+}
+
+p,li{
+    color: white;
+} 
+
+img{
+    height: 400px;
+    width: 400px;
+}
