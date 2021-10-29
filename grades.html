@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrive Grade</title>
+    <link rel="stylesheet" href="nerdLuvCss.css">
+</head>
+<body>
+    <h1>Retrive yout grade</h1>
+    
+    <form action="http://mumstudents.org/params.php" method="post">
+
+     <fieldset id="fieldSet">
+         <legend id="legend">New User Sign Up</legend>
+
+        <label for="name">Name</label>
+        <input type="text" name="name" id="sname"> <br><br>
+
+        <label for="id">ID</label>
+        <input type="text" name="id" id="sid"> <br><br>
+
+        <label for="assignment">Assignment</label>
+        <select name="assignment" id="assignment">
+            <option value="About Me">About Me</option>
+            <option value="Movie Review">Movie Review</option>
+            <option value="Grades Excercises">Grades Excercises</option>
+        </select> <br><br>
+
+        <label for="Entry">Choose Entry</label>
+        <input type="radio" name="entry" value="May">May
+        <input type="radio" name="entry" value="August">August
+        <input type="radio" name="entry" value="February">February  <br><br>
+
+        <label for="confirmation">I confirm the information mentioned above is all true and i am not lying</label>
+        <input type="checkbox" name="confirmation" > <br><br>
+
+        <input type="submit" value="show result">
+
+    </fieldset>
+    </form>
+
+    <br>
+
+    <a href="https://validator.w3.org/nu/?doc=https://bereketalemayehut.github.io/grades.html"> 
+        <img src="img.png" alt="html validator"/> html
+    </a>
+
+</body>
+</html>

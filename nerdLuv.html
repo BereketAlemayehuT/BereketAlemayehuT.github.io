@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nerdLuvCss.css">
+    <title>Nerd Luv</title>
+</head>
+<body> 
+
+    <img src="nerdLuvLogo.PNG" alt="logo">
+
+    <form action="http://mumstudents.org/params.php" method="post">
+
+        <fieldset id="fieldSet">
+            <legend id="legend">New User Sign Up</legend>
+        
+        <div style="float: left; ">
+            <b>Name: </b> <br><br>
+            <b>Gender </b> <br><br>
+            <b>Age </b> <br><br>
+            <b>Personality type </b> <br><br><br>
+            <b>Favorite OS: </b> <br><br>
+            <b>Seeking age: </b> <br><br>
+            <input type="submit" value="Sign Up">
+        </div>
+
+        <div style="float: right; ">
+            <input type="text" name="name" size="16"><br><br>
+            <input type="radio" name="gender" value="Male">Male &nbsp; <input type="radio" name="gender" value="Female"> Female <br><br>
+            <input type="text" name="age" size="6"> <br><br>
+            <input type="text" name="personality" size="6"> (<span style="color: red;">Don't know your type?</span>) <br><br>
+            <select name="OS" id="">
+                <option value="Windows" selected> Windows</option>
+                <option value="Mac" > Mac</option>
+                <option value="Linux" > Linix</option>
+            </select>   <br><br>
+            <input type="text" name="min" size="6" maxlength="3" placeholder="min"> to<input type="text" name="max" size="6" maxlength="3" placeholder="max"> <br>
+        </div>
+    </fieldset>
+    </form>
+
+    <br>
+
+    <a href="https://validator.w3.org/nu/?doc=https://bereketalemayehut.github.io/nerdLuv.html"> 
+        <img src="img.png" alt="html validator"/> html
+    </a>
+
+    <a href="https://validator.w3.org/nu/?doc=https://bereketalemayehut.github.io/nerdLuvCss.css"> 
+        <img src="img.png" alt="html validator"/> css
+    </a>
+
+</body>
+</html>
